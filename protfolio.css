@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*---NAv Section---*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 50px 200px 0px;
+
+}
+nav ul{
+display: flex;
+align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/*---Shared Style---*/
+.text-primary{
+    color: coral;
+}
+
+.btn-primary {
+   background-color: coral;
+   color: white;
+   padding: 10px 30px;
+   border: none;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.dark-2{
+  color: dimgrey;
+}
