@@ -108,7 +108,7 @@ color: black;
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+.item-title{
 font-weight: 600;
 }
 
@@ -144,4 +144,24 @@ font-weight: 600;
 }
 .resume-download-cv{
     margin-top: 50px;
+}
+/*---Footer Style---*/
+
+footer{
+    padding: 130px 130px;
+    display: flex;
+    gap: 200px
+
+}
+.footer-cloumn{
+    width: 50%
+}
+footer input[type="text"], footer input[type="email"], footer input[type="textarea"]{
+    height:20px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 24px;
+    border: none;
 }
