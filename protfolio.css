@@ -75,6 +75,7 @@ margin: 0 35px 0 80px;
     max-width: 400px;
     height:50%;
 }
+
 /*---Main---*/
 main{
     max-width: 1140px;
@@ -84,6 +85,7 @@ main section{
 margin-top: 130px;
 margin-bottom: 130px;
 }
+
 /*---Section---*/
 .section-title{
 font-size: 35px;
@@ -123,4 +125,23 @@ font-weight: 600;
 .img-icon{
  max-width: 50px;
   border-radius: 50%;
+}
+
+/*--Resume--*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    margin-bottom: 20px;
+}
+.experience-description , .experiance-sub-title{
+    color: dimgray;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
 }
